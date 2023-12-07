@@ -3,7 +3,7 @@ function fetchWeather() {
 
     let placeName = inputBox.value;
     console.log(placeName);
-    let appid = "d28e62f8cc143a8ef0b0c0a612f9bc8f"
+    let appid = ""  //give your apikey inside qoutes
 
     let url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${placeName}&appid=${appid} `
 
